@@ -16,24 +16,29 @@ window.onload = init;
 // Set up all event listeners.
 function init() {
     // When they click the add todo button, run `addTodo`.
-
+const button = document.querySelector('#add-todo');
+button.addEventListnener('click', addTodo);
         
     // When they click the clear done todos button, run `clearDoneTodos`.
-
+const button = document.querySelector('#clear-done-todos');
+button.addEventListener('click', clearDoneTools);
     
     // When they click the clear all todos button, run `clearAllTodos`.
-
+const button = document.addEventListener('#clear-all-todos');
+button.addEventListener('click', clearAllTodos);
 }
 
 function addTodo(event) {
     // Stop page from reloading on button click.
-
+document.getElementById("add-todo").inner HTML = Reloading;
 
     // Get new todo from the new todo input field.
-
+const newLi = document.createElement('li');
+let todos = ['Stuff', 'More Stuff', 'Words'];
+todos.splice
 
     // Clear the input field of all text.
-
+document.getElementById("container").removeEventListener("clearinput", myFunction);
 
     // Put the todo and its "done-ness" in their respective arrays.
 
