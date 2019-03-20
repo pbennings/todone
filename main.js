@@ -30,37 +30,43 @@ button.addEventListener('click', clearAllTodos);
 
 function addTodo(event) {
     // Stop page from reloading on button click.
-document.getElementById("add-todo").inner HTML = Reloading;
-
-    // Get new todo from the new todo input field.
-const newLi = document.createElement('li');
-let todos = ['Stuff', 'More Stuff', 'Words'];
-todos.splice
+event.preventDefault()
+    
+// Get new todo from the new todo input field.
+document.getElementById("todo").value="#new-todo";
 
     // Clear the input field of all text.
 document.getElementById("container").removeEventListener("clearinput", myFunction);
 
     // Put the todo and its "done-ness" in their respective arrays.
-
+const newLi = ["Stuff", "More Stuff", "Blah"];
+todo.push("doneness");
 
     // Create a new html element and put our new todo's text in there.
+    const newLi = document.createElement('li');
 
     
     // Add an event listener on the newly created html element to launch
     // `toggleDone` when it's clicked.
-
+element.addEventListener("click",toggleDone()) { alert("Hellow World")};
 
     // Put our new element on the list part of our page!
-
+const li = document.createElement("li");
+document.getElementById("ol").appendChild(node);
 }
 
 
 function clearAllTodos(event) {
     // Stop page from reloading on button click.
-
+    event.preventDefault()
     
     // Remove all todos from BOTH arrays.
-
+const newLi = ["Stuff", "Blah", "More Stuff"];
+console.log(ul);
+while (ol.length) {
+    ol.pop();
+}
+console.log(ol);
     
     // Remove all todos from the html.
     // You'll have to write that function too, but we'll call it here:
@@ -80,11 +86,14 @@ function clearDoneTodos(event) {
         One way to do this is to build up a new array. Give that a try first!
 
     */
-
+        const newArr = ["todos", "indices", "isDone"]
+        const removed = arr.splice(1);
 
 
     /*
         Now remove the done todos from the html.
+
+
 
         Although it's not technically efficient as there is a slight time cost
         to rendering new elements on a web page, you might think not of removing
@@ -96,7 +105,8 @@ function clearDoneTodos(event) {
         Your call.
     */
 
-
+   const newArr = ["todos", "indices", "isDone"]
+   const removed = arr.splice(3);
 }
 
 function toggleDone(event) {
