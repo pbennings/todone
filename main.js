@@ -87,7 +87,7 @@ function clearDoneTodos(event) {
 
     */
         const newArr = ["todos", "indices", "isDone"]
-        const removed = arr.splice(1);
+        const removed = newArr.splice(1);
 
 
     /*
